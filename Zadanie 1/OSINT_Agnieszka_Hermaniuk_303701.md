@@ -346,6 +346,10 @@ biuro.prasowe@pg.edu.pl
 tel.: +48 58 348 63 37<br>
 webmaster@pg.edu.pl
 
+Przydatne mogą się też okazać:
+* [wykaz jednostek uczestniczących w postępowaniu przetargowym](https://github.com/wcyb19z-lab/wcyb19z-projekt-ahermani/blob/screenshots/Zadanie%201/Za%C5%82%C4%85cznik%20nr%202%20-%20wykaz%20jednostek.pdf) - wraz z danymi osób do konatktu
+* [wykaz osób upoważnionych do składania zleceń](https://github.com/wcyb19z-lab/wcyb19z-projekt-ahermani/blob/screenshots/Zadanie%201/Osoby%20upowa%C5%BCnione%20do%20sk%C5%82adania%20zlece%C5%84.pdf)
+
 Dodatkowo przy użyciu narzędzia `theHarvester` źródło LinkedIn znalazło 3 użytkowników: Anatolii Tyshchenko, Jakub Śledź, Jan Pieczykolan. Google znalazł 9 maili: 
 * annwnuk@pg.edu.pl
 * bartlomiej.mroz@pg.edu.pl
