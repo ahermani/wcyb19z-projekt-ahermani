@@ -13,23 +13,32 @@ Długość geo.: 18.6187
 ## INFRASTRUKTURA SIECI
 Serwery:
   * ns1.pg.gda.pl		153.19.40.230
-	Szerokość geo.: 54.3731
-  Długość geo.: 18.6187
+	* Szerokość geo.: 54.3731
+  	* Długość geo.: 18.6187
   * ns2.pg.gda.pl		153.19.40.229
-  Szerokość geo.: 54.3731
-  Długość geo.: 18.6187
+  	* Szerokość geo.: 54.3731
+  	* Długość geo.: 18.6187
   * ns2.task.gda.pl	212.77.96.123
-  Szerokość geo.: 52.2376
-  Długość geo.: 21.0160
+  	* Szerokość geo.: 52.2376
+  	* Długość geo.: 21.0160
 
 mail: 5 smtp.pg.edu.pl
 
 ## PROBLEMY Z BEZPIECZEŃSTWEM
+
+### Wiadomości
 * 30.03.2012 - opublikowanie przez Anonymous baz danych wydziałów PG (Studenckiego Klubu Turystycznego Politechniki Gdańskiej, Wydziału Architektury Politechniki Gdańskiej, witrynie Katedry Chemii Nieorganicznej Politechniki Gdańskiej)
 * 2018 - wyniki egzaminów na stronie profesora pojawiały się publicznie wraz z nazwiskami uczniów (teraz też jest trochę takich plików z wydziału ftims)
 * 2019 - defraudacja pieniędzy z kasy zapomogowo-pożyczkowej (pół miliona zł)
 * 2019 - problemy z działaniem poczty elektronicznej
 
+## Podatności
+
+![image](https://github.com/wcyb19z-lab/wcyb19z-projekt-ahermani/blob/screenshots/Zadanie%201/pg.eduscan7.PNG)
+
+![image](https://github.com/wcyb19z-lab/wcyb19z-projekt-ahermani/blob/screenshots/Zadanie%201/pg.eduscan8.PNG)
+
+![image](https://github.com/wcyb19z-lab/wcyb19z-projekt-ahermani/blob/screenshots/Zadanie%201/pg.eduscan9.PNG)
 ## USŁUGI
 https://cui.pg.edu.pl/
 
