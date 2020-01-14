@@ -4,13 +4,23 @@
 
 ## GEOLOKALIZACJA IP (wynik ze strony iplocation.net)
 IP: 153.19.40.70
+
 Kraj: Poland
+
 Region: Pomorskie
+
 Miasto: Gdańsk
+
 Szerokość geo.: 54.3731
+
 Długość geo.: 18.6187
 
 ## INFRASTRUKTURA SIECI
+Wyniki poleceń:
+```
+host -t ns pg.edu.pl
+host -t mx pg.edu.pl
+```
 Serwery:
   * ns1.pg.gda.pl		153.19.40.230
 	* Szerokość geo.: 54.3731
@@ -39,10 +49,18 @@ mail: 5 smtp.pg.edu.pl
 ![image](https://github.com/wcyb19z-lab/wcyb19z-projekt-ahermani/blob/screenshots/Zadanie%201/pg.eduscan8.PNG)
 
 ![image](https://github.com/wcyb19z-lab/wcyb19z-projekt-ahermani/blob/screenshots/Zadanie%201/pg.eduscan9.PNG)
-## USŁUGI
-https://cui.pg.edu.pl/
+
+## USŁUGI SERWERÓW
+
+![image](https://github.com/wcyb19z-lab/wcyb19z-projekt-ahermani/blob/screenshots/Zadanie%201/pg.eduscan4.PNG)
+
+![image](https://github.com/wcyb19z-lab/wcyb19z-projekt-ahermani/blob/screenshots/Zadanie%201/pg.eduscan5.PNG)
+
+![image](https://github.com/wcyb19z-lab/wcyb19z-projekt-ahermani/blob/screenshots/Zadanie%201/pg.eduscan6.PNG)
 
 ## SUBDOMENY
+Znalezione przy użyciu narzędzia: `theHarvester`.
+
 adonis-prod-app1.pg.edu.pl.
 
 akademiki.pg.edu.pl
@@ -298,33 +316,49 @@ zlecenia.pg.edu.pl
 
 ## CACHE GOOGLE
 Wyszukiwanie z dn.:: 6.01.2020 12:43
+
 Wynikiem jest wyświetlenie z dn: 5.01.2020 5:18:40
 
 ## DANE KONTAKTOWE
-Adres:
+*Adres:*
+
 Politechnika Gdańska
+
 ul. Gabriela Narutowicza 11/12
+
 80-233 Gdańsk
+
 Polska
+
 NIP: 5840203593, REGON: 000001620
 
-Informacja o numerach telefonów w Politechnice Gdańskiej
+*Informacja o numerach telefonów w Politechnice Gdańskiej*
+
 tel.: +48 58 347 11 00 
 
-Informacja o pracownikach
-Można wyszukać imię, nazwisko, stanowisko, wydział i nr telefonu każdego pracownika
-https://moja.pg.edu.pl/app/addressBook/
+*Informacja o pracownikach*
 
-Informacja o rekrutacji
+Można wyszukać imię, nazwisko, stanowisko, wydział i nr telefonu każdego pracownika: https://moja.pg.edu.pl/app/addressBook/
+
+*Informacja o rekrutacji*
+
 pon.–pt. 7.30–15.30
+
 tel.: +48 58 348 67 00
+
+
 https://pg.edu.pl/rekrutacja
+
 rekrutacja@pg.edu.pl
 
-Kontakt dla mediów
+*Kontakt dla mediów*
+
 tel.: +48 58 347 29 99
+
 biuro.prasowe@pg.edu.pl
 
-Webmaster
+*Webmaster*
+
 tel.: +48 58 348 63 37
+
 webmaster@pg.edu.pl
