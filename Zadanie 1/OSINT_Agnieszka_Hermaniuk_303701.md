@@ -3,16 +3,11 @@
 # Agnieszka Hermaniuk, nr albumu 303701, e-mail: 01149363@pw.edu.pl
 
 ## GEOLOKALIZACJA IP (wynik ze strony iplocation.net)
-IP: 153.19.40.70
-
-Kraj: Poland
-
-Region: Pomorskie
-
-Miasto: Gdańsk
-
-Szerokość geo.: 54.3731
-
+IP: 153.19.40.70<br>
+Kraj: Poland<br>
+Region: Pomorskie<br>
+Miasto: Gdańsk<br>
+Szerokość geo.: 54.3731<br>
 Długość geo.: 18.6187
 
 ## INFRASTRUKTURA SIECI
@@ -38,7 +33,7 @@ mail: 5 smtp.pg.edu.pl
 
 ### Wiadomości
 * 30.03.2012 - opublikowanie przez Anonymous baz danych wydziałów PG (Studenckiego Klubu Turystycznego Politechniki Gdańskiej, Wydziału Architektury Politechniki Gdańskiej, witrynie Katedry Chemii Nieorganicznej Politechniki Gdańskiej)
-* 2018 - wyniki egzaminów na stronie profesora pojawiały się publicznie wraz z nazwiskami uczniów (teraz też jest trochę takich plików z wydziału ftims)
+* 2018 - wyniki egzaminów na stronie profesora pojawiały się publicznie wraz z nazwiskami uczniów (obecnie można znaleźć sporo wyników egzaminów wraz z nazwiskami i imionami studentów, np. [plik1](https://github.com/wcyb19z-lab/wcyb19z-projekt-ahermani/blob/screenshots/Zadanie%201/Fizyka_molekularna_C_25.02.2016.pdf), [plik2](https://github.com/wcyb19z-lab/wcyb19z-projekt-ahermani/blob/screenshots/Zadanie%201/Fizyka_molekularna_wyniki%20sesja%20podstawowa.pdf))
 * 2019 - defraudacja pieniędzy z kasy zapomogowo-pożyczkowej (pół miliona zł)
 * 2019 - problemy z działaniem poczty elektronicznej
 
@@ -59,7 +54,7 @@ mail: 5 smtp.pg.edu.pl
 ![image](https://github.com/wcyb19z-lab/wcyb19z-projekt-ahermani/blob/screenshots/Zadanie%201/pg.eduscan6.PNG)
 
 ## SUBDOMENY
-Znalezione przy użyciu narzędzia: `theHarvester`.
+Znalezione przy użyciu narzędzi: `theHarvester` (wykorzystałam źródła: google, virustotal, threatcrowd, crtsh i netcraft) oraz `dnsenum`, a następnie scalone, posortowane i przefiltrowane ze względu na duplikaty.
 
 adonis-prod-app1.pg.edu.pl.
 
@@ -160,7 +155,6 @@ forum.pg.edu.pl
 ftims.pg.edu.pl
 
 git.pg.edu.pl
-
 
 han.bg.pg.edu.pl
 
@@ -315,21 +309,16 @@ zlecenia.pg.edu.pl
 
 
 ## CACHE GOOGLE
-Wyszukiwanie z dn.:: 6.01.2020 12:43
-
+Wyszukiwanie z dn.:: 6.01.2020 12:43<br>
 Wynikiem jest wyświetlenie z dn: 5.01.2020 5:18:40
 
 ## DANE KONTAKTOWE
 **Adres:**
 
-Politechnika Gdańska
-
-ul. Gabriela Narutowicza 11/12
-
-80-233 Gdańsk
-
-Polska
-
+Politechnika Gdańska<br>
+ul. Gabriela Narutowicza 11/12<br>
+80-233 Gdańsk<br>
+Polska<br>
 NIP: 5840203593, REGON: 000001620
 
 **Informacja o numerach telefonów w Politechnice Gdańskiej**
@@ -343,11 +332,8 @@ Można wyszukać imię, nazwisko, stanowisko, wydział i nr telefonu każdego pr
 **Informacja o rekrutacji**
 
 pon.–pt. 7.30–15.30<br>
-tel.: +48 58 348 67 00
-
-
-https://pg.edu.pl/rekrutacja
-
+tel.: +48 58 348 67 00<br>
+https://pg.edu.pl/rekrutacja<br>
 rekrutacja@pg.edu.pl
 
 **Kontakt dla mediów**
@@ -359,3 +345,14 @@ biuro.prasowe@pg.edu.pl
 
 tel.: +48 58 348 63 37<br>
 webmaster@pg.edu.pl
+
+Dodatkowo przy użyciu narzędzia `theHarvester` źródło LinkedIn znalazło 3 użytkowników: Anatolii Tyshchenko, Jakub Śledź, Jan Pieczykolan. Google znalazł 9 maili: 
+* annwnuk@pg.edu.pl
+* bartlomiej.mroz@pg.edu.pl
+* blorb@pg-edu-pl
+* blorb@pg.edu.pl
+* krzysztof.grzelec@pg.edu.pl
+* lech.michalski@pg.edu.pl
+* malinowska-panczyk@pg.edu.pl
+* plorb@pg.edu.pl
+* rekrutacja@pg.edu.pl
