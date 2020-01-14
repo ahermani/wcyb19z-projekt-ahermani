@@ -320,7 +320,7 @@ Wyszukiwanie z dn.:: 6.01.2020 12:43
 Wynikiem jest wyświetlenie z dn: 5.01.2020 5:18:40
 
 ## DANE KONTAKTOWE
-*Adres:*
+**Adres:**
 
 Politechnika Gdańska
 
@@ -332,18 +332,17 @@ Polska
 
 NIP: 5840203593, REGON: 000001620
 
-*Informacja o numerach telefonów w Politechnice Gdańskiej*
+**Informacja o numerach telefonów w Politechnice Gdańskiej**
 
 tel.: +48 58 347 11 00 
 
-*Informacja o pracownikach*
+**Informacja o pracownikach**
 
 Można wyszukać imię, nazwisko, stanowisko, wydział i nr telefonu każdego pracownika: https://moja.pg.edu.pl/app/addressBook/
 
-*Informacja o rekrutacji*
+**Informacja o rekrutacji**
 
-pon.–pt. 7.30–15.30
-
+pon.–pt. 7.30–15.30<br>
 tel.: +48 58 348 67 00
 
 
@@ -351,14 +350,12 @@ https://pg.edu.pl/rekrutacja
 
 rekrutacja@pg.edu.pl
 
-*Kontakt dla mediów*
+**Kontakt dla mediów**
 
-tel.: +48 58 347 29 99
-
+tel.: +48 58 347 29 99<br>
 biuro.prasowe@pg.edu.pl
 
-*Webmaster*
+**Webmaster**
 
-tel.: +48 58 348 63 37
-
+tel.: +48 58 348 63 37<br>
 webmaster@pg.edu.pl
