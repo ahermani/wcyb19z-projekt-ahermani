@@ -1,46 +1,54 @@
-10.15.230.20
-10.15.230.50
-10.240.1.70
-104.160.66.12
-153.19.33.16
-153.19.33.246
-153.19.33.4
-153.19.34.232
-153.19.40.133
-153.19.40.134
-153.19.40.137
-153.19.40.138
-153.19.40.139
-153.19.40.145
-153.19.40.151
-153.19.40.152
-153.19.40.153
-153.19.40.154
-153.19.40.156
-153.19.40.158
-153.19.40.164
-153.19.40.170
-153.19.40.175
-153.19.40.186
-153.19.40.187
-153.19.40.188
-153.19.40.198
-153.19.40.199
-153.19.40.202
-153.19.40.204
-153.19.40.207
-153.19.40.208
-153.19.40.216
-153.19.40.220
-153.19.40.242
-153.19.40.250
-153.19.40.251
-153.19.40.28
-153.19.40.40
-153.19.40.48
-153.19.40.71
-153.19.40.75
-153.19.40.76
-153.19.40.8
-153.19.40.91
-153.19.55.226
+adonis-prod-app1.pg.edu.pl has address 153.19.40.91
+bg-vtls.bibl.pg.gda.pl has address 153.19.58.250
+campus.pg.edu.pl has address 153.19.40.75
+cnm-srv.pg.edu.pl has address 153.19.40.71
+ctwit-crm.pg.edu.pl has address 153.19.40.138
+drive.pg.edu.pl has address 153.19.40.139
+dzp.pg.edu.pl has address 153.19.40.28
+eclipse.eti.pg.gda.pl has address 153.19.55.226
+eia.pg.edu.pl has address 153.19.40.170
+eka.pg.edu.pl has address 153.19.40.204
+enauczanie.pg.edu.pl has address 153.19.40.164
+eti.pg.edu.pl has address 153.19.40.170
+ezd-prod-app1.pg.edu.pl has address 153.19.40.133
+ezd-prod-db1.pg.edu.pl has address 153.19.40.134
+ezd-szkol-app1.szkol.pg.edu.pl has address 10.15.230.50
+han.bg.pg.edu.pl has address 153.19.58.251
+imap.pg.edu.pl has address 153.19.40.220
+krata.bl.pg.gda.pl has address 153.19.34.232
+kube-dev-http.cui.pg.gda.pl has address 10.240.1.70
+kube-prod-front1.pg.edu.pl has address 153.19.40.151
+kube-prod-front2.pg.edu.pl has address 153.19.40.152
+kube-prod-front3.pg.edu.pl has address 153.19.40.153
+kube-prod-front4.pg.edu.pl has address 153.19.40.154
+kube-prod-http.pg.edu.pl has address 153.19.40.158
+kube-szkol-http.szkol.pg.edu.pl has address 10.15.230.20
+mail.zie.pg.edu.pl has address 153.19.33.246
+mba.pg.edu.pl has address 153.19.33.16
+moja.pg.gda.pl has address 153.19.40.48
+mx.zie.pg.edu.pl has address 153.19.33.4
+pg.edu.pl has address 153.19.40.170
+phplist.pg.edu.pl has address 153.19.40.198
+pomoc-prod-app1.cui.pg.gda.pl has address 153.19.40.8
+position.pg.edu.pl has address 153.19.40.156
+private.clickmeeting.com has address 104.160.66.12
+repos-prod-app1.cui.pg.gda.pl has address 153.19.40.208
+roundcube.pg.gda.pl has address 153.19.40.242
+sis.eti.pg.gda.pl has address 153.19.55.239
+sklep.pg.edu.pl has address 153.19.40.137
+smtplist.pg.edu.pl has address 153.19.40.199
+smtp.pg.edu.pl has address 153.19.40.251
+smtprelay.mailing.pg.edu.pl has address 153.19.40.250
+smtp.student.pg.edu.pl has address 153.19.40.202
+sp.netpr.pl has address 217.149.243.252
+stdwww.pg.gda.pl has address 153.19.40.40
+student.pg.edu.pl has address 153.19.40.170
+vpn1.pg.edu.pl has address 153.19.40.186
+vpn2.pg.edu.pl has address 153.19.40.187
+vpn.pg.edu.pl has address 153.19.40.188
+webapps.pg.gda.pl has address 153.19.40.76
+webmail.pg.edu.pl has address 153.19.40.207
+wilis.pg.edu.pl has address 153.19.40.170
+zadania.pg.edu.pl has address 153.19.40.175
+zapisy.pg.gda.pl has address 153.19.40.216
+zie.pg.edu.pl has address 153.19.40.170
