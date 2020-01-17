@@ -36,16 +36,16 @@ W metasploicie użyłam exploita `exploit/unix/webapp/wp_admin_shell_upload`, kt
 * TARGETURI /wordpress
 * USERNAME c0rrupt3d_brain
 
-Uzyskałam dostęp do maszyny.
+Uzyskałam dostęp do maszyny. W meterpreterze stworzyłam powłokę interaktywną:
+```
+shell
+python -c 'import pty; pty.spawn("/bin/bash")'
+```
 
 W folderze root3r znajdował się plik `.root_password_ssh.txt`, który zawierał hasło do roota: `willy26`.
 
-![image]()
+![image](https://github.com/wcyb19z-lab/wcyb19z-projekt-ahermani/blob/screenshots/Zadanie%202/EVM/root_pass.PNG)
 
-Stworzyłam powłokę i w meterpreterze wpisałam polecenie w celu zwiększenia uprawnień:
-```
-python -c 'import pty; pty.spawn("/bin/bash")'
-```
 I zalogowałam się do roota, poleceniem `su root` oraz hasłem `willy26`.
 
 Flaga znajdowała się w folderze root w pliku `proof.txt`.
