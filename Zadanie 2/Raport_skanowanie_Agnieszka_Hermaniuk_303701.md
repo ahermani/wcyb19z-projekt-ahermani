@@ -1,3 +1,13 @@
+Do zadania pobrałam podane maszyny i utworzyłam sieć wewnętrzną składającą się z nich oraz z Kali Linuxa.
+
+```
+netdiscover -ieth0
+```
+
+![image](https://github.com/wcyb19z-lab/wcyb19z-projekt-ahermani/blob/screenshots/Zadanie%202/intnet.PNG)
+
+Następnie przeskanowałam maszyny przed podejściem do testów penetracyjnych.
+
 # Skanowanie `nmap`
 
 Wyniki skanowania maszyn pod kątem detekcji OS, usług i ich wersji oraz otwartych portów.
