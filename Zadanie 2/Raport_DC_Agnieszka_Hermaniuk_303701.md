@@ -15,9 +15,7 @@ droopescan scan drupal -u http://192.168.10.104/
 
 ![image](https://github.com/wcyb19z-lab/wcyb19z-projekt-ahermani/blob/screenshots/Zadanie%202/CD/droopescan.png)
 
-Na podstawie możliwych wersji Drupala (7.22-7.26) można wywnioskować, że mamy do czynienia ze znaną podatnością `Drupalgeddon`, którą odkryto w wersjach Drupala starszych niż 7.32.
-
-Potwierdziło się to po wyszukaniu exploita do Drupala 7.
+Wyszukanie exploita do prawdopodobnej wersji Drupala (7) wykazało, że mamy do czynienia z podatnością `Drupalgeddon`, którą dotyczącą wersji Drupala starszych niż 7.32.
 
 ![image](https://github.com/wcyb19z-lab/wcyb19z-projekt-ahermani/blob/screenshots/Zadanie%202/CD/searchsploit_drupal.png)
 
@@ -28,11 +26,12 @@ Następnie poszukałam exploita na podatność Drupalgeddon w metasploicie.
 Ustawiłam opcje:
 * RHOSTS 192.168.10.104
 
-I uzyskałam dostęp do maszyny z powłoką meterpreter. Następnie użyłam poleceń, zwiększających moje uprawnienia.
+I uzyskałam dostęp do maszyny z powłoką meterpreter. Następnie stworzyłam interaktywną powłokę.
 ```
+shell
 python -c "import pty;pty.spawn('/bin/bash')"
 ```
-Po otawrciu zawartości katalogu okazało się, że znajduje się w nim 1. flaga:
+Po otawrciu zawartości bieżącego katalogu okazało się, że znajduje się w nim 1. flaga:
 
 ![image](https://github.com/wcyb19z-lab/wcyb19z-projekt-ahermani/blob/screenshots/Zadanie%202/CD/flag1.PNG)
 
@@ -62,6 +61,23 @@ I kierowała ona do pliku `/etc/passwd`.
 Jak widać, jednym z użytkowników jest `flag4`. Przeszłam do jego folderu, gdzie znajdowała się flaga 4.
 
 ![image](https://github.com/wcyb19z-lab/wcyb19z-projekt-ahermani/blob/screenshots/Zadanie%202/CD/flag4.PNG)
+
+Następnie użyłam linuxowych poleceń eskalacji uprawnień.
+
+![image]()
+
+Przy pomocy funkcji find można teraz wyświetlić zawartość katalogu `root`
+
+![image](https://github.com/wcyb19z-lab/wcyb19z-projekt-ahermani/blob/screenshots/Zadanie%202/CD/find_root.png)
+
+Znajduje się w nim plik o nazwie `thefinalflag.txt`. Można go otworzyć specjalnym poleceniem i przeczytać zawartość ostatniej flagi:
+```
+find /root/thefinalflag.txt -exec cat {} \;
+```
+
+![image](https://github.com/wcyb19z-lab/wcyb19z-projekt-ahermani/blob/screenshots/Zadanie%202/CD/finalflag.png)
+
+
 
 
 
