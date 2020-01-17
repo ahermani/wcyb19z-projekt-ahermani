@@ -1,15 +1,19 @@
 # Skanowanie `nmap`
+
+Wyniki skanowania maszyn pod kątem detekcji OS, usług i ich wersji oraz otwartych portów.
+
 ## Kioptrix
 
-![image]()
+![image](https://github.com/wcyb19z-lab/wcyb19z-projekt-ahermani/blob/screenshots/Zadanie%202/Kioptrix/nmap_t4.png)
+
 
 ## DC
 
-![image]()
+![image](https://github.com/wcyb19z-lab/wcyb19z-projekt-ahermani/blob/screenshots/Zadanie%202/CD/nmap.png)
 
 ## EVM
 
-![image]()
+![image](https://github.com/wcyb19z-lab/wcyb19z-projekt-ahermani/blob/screenshots/Zadanie%202/EVM/nmap.png)
 
 # Skanowanie podatności
 
