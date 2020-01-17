@@ -15,7 +15,7 @@ droopescan scan drupal -u http://192.168.10.104/
 
 ![image](https://github.com/wcyb19z-lab/wcyb19z-projekt-ahermani/blob/screenshots/Zadanie%202/CD/droopescan.png)
 
-Wyszukanie exploita do prawdopodobnej wersji Drupala (7) wykazało, że mamy do czynienia z podatnością `Drupalgeddon`, którą dotyczącą wersji Drupala starszych niż 7.32.
+Wyszukanie exploita do prawdopodobnej wersji Drupala (7) wykazało, że mamy do czynienia z podatnością `Drupalgeddon`, która dotyczy wersji Drupala starszych niż 7.32.
 
 ![image](https://github.com/wcyb19z-lab/wcyb19z-projekt-ahermani/blob/screenshots/Zadanie%202/CD/searchsploit_drupal.png)
 
@@ -64,7 +64,7 @@ Jak widać, jednym z użytkowników jest `flag4`. Przeszłam do jego folderu, gd
 
 Następnie użyłam linuxowych poleceń eskalacji uprawnień.
 
-![image]()
+![image](https://github.com/wcyb19z-lab/wcyb19z-projekt-ahermani/blob/screenshots/Zadanie%202/CD/privilege_escalation1.png)
 
 Przy pomocy funkcji find można teraz wyświetlić zawartość katalogu `root`
 
