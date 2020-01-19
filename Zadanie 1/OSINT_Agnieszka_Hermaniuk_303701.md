@@ -29,6 +29,10 @@ Serwery:
 
 mail: 5 smtp.pg.edu.pl
 
+## RESTART SERWERÓW
+
+![image](https://github.com/wcyb19z-lab/wcyb19z-projekt-ahermani/blob/screenshots/Zadanie%201/reboot.PNG)
+
 ## PROBLEMY Z BEZPIECZEŃSTWEM
 
 ### Wiadomości
