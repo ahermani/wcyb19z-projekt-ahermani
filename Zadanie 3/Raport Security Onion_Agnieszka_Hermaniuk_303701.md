@@ -58,6 +58,54 @@ Powróciwszy do Kibany można dodatkowo przefiltrować zebrane logi, np. znajduj
 ## Plik 2.
 Zaimportowałam plik zeus-sample-1.pcap.
 
-![image]()
+![image](https://github.com/wcyb19z-lab/wcyb19z-projekt-ahermani/blob/screenshots/Zadanie%203/zeus_import.PNG)
 
+Otworzyłam Kibanę, ustawiając odpowiednią datę.
+
+![image](https://github.com/wcyb19z-lab/wcyb19z-projekt-ahermani/blob/screenshots/Zadanie%203/kibana_sensors.PNG)
+
+Oprócz poprzednich typów logów pojawiły się także `bro_weird` - wykrywa anomalie oraz `bro_pe` - do plików Portable Executable.
+
+Squert pokazał następujące alerty:
+
+![image](https://github.com/wcyb19z-lab/wcyb19z-projekt-ahermani/blob/screenshots/Zadanie%203/squert_all.PNG)
+
+Oraz podsumowanie adresów IP, sygnatur i portów:
+
+![image](https://github.com/wcyb19z-lab/wcyb19z-projekt-ahermani/blob/screenshots/Zadanie%203/zeus_ips.PNG)
+
+![image](https://github.com/wcyb19z-lab/wcyb19z-projekt-ahermani/blob/screenshots/Zadanie%203/zeus_ports.PNG)
+
+Tak natomiast wyglądały połączenia pomiędzy hostami
+
+![image](https://github.com/wcyb19z-lab/wcyb19z-projekt-ahermani/blob/screenshots/Zadanie%203/zeus_sankey_diagram.PNG)
+
+Po filtrowaniu wyników ze względu na IP można było wywnioskować, że zainfekowanym hostem jest 192.168.3.35, który pobrał Zbota od hosta 188.124.9.56. 
+
+![image](https://github.com/wcyb19z-lab/wcyb19z-projekt-ahermani/blob/screenshots/Zadanie%203/delivery.PNG)
+
+W narzędziu `Sguil` po wygenerowaniu transkryptu można zobaczyć też nazwę strony, z której pobrano złośliwy plik.
+
+![image](https://github.com/wcyb19z-lab/wcyb19z-projekt-ahermani/blob/screenshots/Zadanie%203/get_seus.PNG)
+
+Z tego samego hosta załadawany został następnie payload.
+
+![image](https://github.com/wcyb19z-lab/wcyb19z-projekt-ahermani/blob/screenshots/Zadanie%203/exploitation.PNG)
+
+![image](https://github.com/wcyb19z-lab/wcyb19z-projekt-ahermani/blob/screenshots/Zadanie%203/payload%20and%20exe%20download.PNG)
+
+Następnie nasz host wszedł na stronę przekierowującą na Sutra TDS, czyli system służący do przekierowywania ruchu hosta w sieci.
+
+![image](https://github.com/wcyb19z-lab/wcyb19z-projekt-ahermani/blob/screenshots/Zadanie%203/sutra%20redirect.PNG)
+
+Hostem odpowiedzialnym za przekierowania był 65.254.40.251. W Sguilu można zobaczyć nazwy przekierowywanych stron.
+
+![image](https://github.com/wcyb19z-lab/wcyb19z-projekt-ahermani/blob/screenshots/Zadanie%203/red1.PNG)
+![image](https://github.com/wcyb19z-lab/wcyb19z-projekt-ahermani/blob/screenshots/Zadanie%203/red2.PNG)
+
+Na koniec nastąpiło połączenie z CnC (188.124.5.100)
+
+![image](https://github.com/wcyb19z-lab/wcyb19z-projekt-ahermani/blob/screenshots/Zadanie%203/cnc.PNG)
+
+![image](https://github.com/wcyb19z-lab/wcyb19z-projekt-ahermani/blob/screenshots/Zadanie%203/cnc_file.PNG)
 
